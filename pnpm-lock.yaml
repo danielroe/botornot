@@ -12,8 +12,8 @@ dependencies:
     specifier: ^0.0.63
     version: 0.0.63
   partysocket:
-    specifier: ^0.0.19
-    version: 0.0.19
+    specifier: ^0.0.25
+    version: 0.0.25
 
 devDependencies:
   '@iconify-json/codicon':
@@ -5884,8 +5884,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /partysocket@0.0.19:
-    resolution: {integrity: sha512-ew5pHZYP6/Yu9k2qAaH64keTM1uWVlOH23NQMM+yhGFvajEv7SgZXzWYksycSbkvYLSz9lwjnu/2M0/oOfRWdA==}
+  /partysocket@0.0.25:
+    resolution: {integrity: sha512-1oCGA65fydX/FgdnsiBh68buOvfxuteoZVSb3Paci2kRp/7lhF0HyA8EDb5X/O6FxId1e+usPTQNRuzFEvkJbQ==}
     dependencies:
       event-target-shim: 6.0.2
     dev: false
