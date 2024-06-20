@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@iconify-json/lucide": "^1.1.150",
-    "partykit": "^0.0.63",
+    "partykit": "^0.0.107",
     "partysocket": "^0.0.19"
   }
 }
