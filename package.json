@@ -10,11 +10,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@iconify-json/codicon": "1.2.2",
+    "@iconify-json/codicon": "1.2.3",
     "@nuxt/test-utils": "3.14.4",
     "@nuxt/ui": "2.18.7",
-    "@nuxtjs/tailwindcss": "6.12.1",
-    "@unocss/nuxt": "0.63.4",
+    "@nuxtjs/tailwindcss": "6.12.2",
+    "@unocss/nuxt": "0.63.6",
     "@vueuse/nuxt": "11.1.0",
     "happy-dom": "15.7.4",
     "nuxt": "3.13.2",
