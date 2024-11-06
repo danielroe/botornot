@@ -17,7 +17,7 @@
     "@unocss/nuxt": "0.64.0",
     "@vueuse/nuxt": "11.2.0",
     "happy-dom": "15.10.1",
-    "nuxt": "3.14.0",
+    "nuxt": "3.14.159",
     "vitest": "2.1.4",
     "vue": "3.5.12",
     "vue-router": "4.4.5"
