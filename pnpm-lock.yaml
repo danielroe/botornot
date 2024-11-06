@@ -21,7 +21,7 @@ devDependencies:
     version: 1.2.3
   '@nuxt/test-utils':
     specifier: 3.14.4
-    version: 3.14.4(h3@1.13.0)(happy-dom@15.9.0)(nitropack@2.10.2)(vite@5.4.10)(vitest@2.1.4)(vue-router@4.4.5)(vue@3.5.12)
+    version: 3.14.4(h3@1.13.0)(happy-dom@15.10.1)(nitropack@2.10.2)(vite@5.4.10)(vitest@2.1.4)(vue-router@4.4.5)(vue@3.5.12)
   '@nuxt/ui':
     specifier: 2.19.2
     version: 2.19.2(vite@5.4.10)(vue@3.5.12)
@@ -35,14 +35,14 @@ devDependencies:
     specifier: 11.2.0
     version: 11.2.0(nuxt@3.14.0)(vue@3.5.12)
   happy-dom:
-    specifier: 15.9.0
-    version: 15.9.0
+    specifier: 15.10.1
+    version: 15.10.1
   nuxt:
     specifier: 3.14.0
     version: 3.14.0(typescript@5.6.3)(vite@5.4.10)
   vitest:
     specifier: 2.1.4
-    version: 2.1.4(happy-dom@15.9.0)
+    version: 2.1.4(happy-dom@15.10.1)
   vue:
     specifier: 3.5.12
     version: 3.5.12(typescript@5.6.3)
@@ -1541,7 +1541,7 @@ packages:
       - webpack-sources
     dev: true
 
-  /@nuxt/test-utils@3.14.4(h3@1.13.0)(happy-dom@15.9.0)(nitropack@2.10.2)(vite@5.4.10)(vitest@2.1.4)(vue-router@4.4.5)(vue@3.5.12):
+  /@nuxt/test-utils@3.14.4(h3@1.13.0)(happy-dom@15.10.1)(nitropack@2.10.2)(vite@5.4.10)(vitest@2.1.4)(vue-router@4.4.5)(vue@3.5.12):
     resolution: {integrity: sha512-1rSYMXjN651t+c8zSaPAoP78YE1WVcI3baPC2cic9my+J5FIsT1IuTU6M9XwDFBUnwGL6/sV5pPsyEumkIl3eA==}
     engines: {node: '>=18.20.4'}
     peerDependencies:
@@ -1592,7 +1592,7 @@ packages:
       fake-indexeddb: 6.0.0
       get-port-please: 3.1.2
       h3: 1.13.0
-      happy-dom: 15.9.0
+      happy-dom: 15.10.1
       local-pkg: 0.5.0
       magic-string: 0.30.12
       nitropack: 2.10.2(typescript@5.6.3)
@@ -1608,8 +1608,8 @@ packages:
       unenv: 1.10.0
       unplugin: 1.15.0(webpack-sources@3.2.3)
       vite: 5.4.10
-      vitest: 2.1.4(happy-dom@15.9.0)
-      vitest-environment-nuxt: 1.0.1(h3@1.13.0)(happy-dom@15.9.0)(nitropack@2.10.2)(vite@5.4.10)(vitest@2.1.4)(vue-router@4.4.5)(vue@3.5.12)
+      vitest: 2.1.4(happy-dom@15.10.1)
+      vitest-environment-nuxt: 1.0.1(h3@1.13.0)(happy-dom@15.10.1)(nitropack@2.10.2)(vite@5.4.10)(vitest@2.1.4)(vue-router@4.4.5)(vue@3.5.12)
       vue: 3.5.12(typescript@5.6.3)
       vue-router: 4.4.5(vue@3.5.12)
     transitivePeerDependencies:
@@ -4720,8 +4720,8 @@ packages:
       unenv: 1.10.0
     dev: true
 
-  /happy-dom@15.9.0:
-    resolution: {integrity: sha512-p+6ySXcpvjVW0Xetv6e8ccT2txbDpHE0RfZOEE84tQ8ESL1nlzCjvS6fZD77DkYXE540D+2N20hhFeBN6B/CJA==}
+  /happy-dom@15.10.1:
+    resolution: {integrity: sha512-FuGnj/qIB4QnBL6fWmD7Wnh6STxevLgOVWB6+nopDGgWG1+t9CXkNB2ldZ+iqwD2UKxD2D0SU8el8A6AX6Q1+g==}
     engines: {node: '>=18.0.0'}
     dependencies:
       entities: 4.5.0
@@ -7889,10 +7889,10 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest-environment-nuxt@1.0.1(h3@1.13.0)(happy-dom@15.9.0)(nitropack@2.10.2)(vite@5.4.10)(vitest@2.1.4)(vue-router@4.4.5)(vue@3.5.12):
+  /vitest-environment-nuxt@1.0.1(h3@1.13.0)(happy-dom@15.10.1)(nitropack@2.10.2)(vite@5.4.10)(vitest@2.1.4)(vue-router@4.4.5)(vue@3.5.12):
     resolution: {integrity: sha512-eBCwtIQriXW5/M49FjqNKfnlJYlG2LWMSNFsRVKomc8CaMqmhQPBS5LZ9DlgYL9T8xIVsiA6RZn2lk7vxov3Ow==}
     dependencies:
-      '@nuxt/test-utils': 3.14.4(h3@1.13.0)(happy-dom@15.9.0)(nitropack@2.10.2)(vite@5.4.10)(vitest@2.1.4)(vue-router@4.4.5)(vue@3.5.12)
+      '@nuxt/test-utils': 3.14.4(h3@1.13.0)(happy-dom@15.10.1)(nitropack@2.10.2)(vite@5.4.10)(vitest@2.1.4)(vue-router@4.4.5)(vue@3.5.12)
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@jest/globals'
@@ -7915,7 +7915,7 @@ packages:
       - webpack-sources
     dev: true
 
-  /vitest@2.1.4(happy-dom@15.9.0):
+  /vitest@2.1.4(happy-dom@15.10.1):
     resolution: {integrity: sha512-eDjxbVAJw1UJJCHr5xr/xM86Zx+YxIEXGAR+bmnEID7z9qWfoxpHw0zdobz+TQAFOLT+nEXz3+gx6nUJ7RgmlQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -7950,7 +7950,7 @@ packages:
       chai: 5.1.2
       debug: 4.3.7(supports-color@9.4.0)
       expect-type: 1.1.0
-      happy-dom: 15.9.0
+      happy-dom: 15.10.1
       magic-string: 0.30.12
       pathe: 1.1.2
       std-env: 3.7.0
