@@ -14,7 +14,7 @@
     "@nuxt/test-utils": "3.14.4",
     "@nuxt/ui": "2.19.2",
     "@nuxtjs/tailwindcss": "6.12.2",
-    "@unocss/nuxt": "0.64.0",
+    "@unocss/nuxt": "0.64.1",
     "@vueuse/nuxt": "11.2.0",
     "happy-dom": "15.11.6",
     "nuxt": "3.14.159",
