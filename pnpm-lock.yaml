@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@iconify-json/lucide':
     specifier: ^1.1.150
-    version: 1.2.98
+    version: 1.2.99
   partykit:
     specifier: ^0.0.115
     version: 0.0.115
@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@iconify-json/codicon':
-    specifier: 1.2.49
-    version: 1.2.49
+    specifier: 1.2.51
+    version: 1.2.51
   '@nuxt/test-utils':
     specifier: 3.14.4
     version: 3.14.4(h3@1.15.10)(happy-dom@20.8.3)(nitropack@2.13.2)(vite@6.4.1)(vitest@4.0.18)(vue-router@4.6.4)(vue@3.5.13)
@@ -1568,8 +1568,8 @@ packages:
       vue: 3.5.13
     dev: true
 
-  /@iconify-json/codicon@1.2.49:
-    resolution: {integrity: sha512-Ljl9BWw7e8xYm0l5Npnj5/aN/lEFEQDfhl7UHspPYIlZgw3ZvPOvo0gAr78aorb6X1+LZJqI0BNFAgO5r2sjIQ==}
+  /@iconify-json/codicon@1.2.51:
+    resolution: {integrity: sha512-q+ibQk5oiNriGg31owh9FUzue9u1iTwhvBJnVHwaM+ATqbCQproqlUJr6QUNY10x8YPBb4w8oXm/9ah8pRuVaA==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1580,8 +1580,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/lucide@1.2.98:
-    resolution: {integrity: sha512-Lx2464W8Tty/QEnZ2UPb73nPdML/HpGCj0J0w37jP3/jx3l4fniZBjDxe1TgHiIL5XW9QO3vlx53ZQZ5JsNpzQ==}
+  /@iconify-json/lucide@1.2.99:
+    resolution: {integrity: sha512-XE2Pg8uax2uN3ZbvvnO0C5ADgZOyUgEPiwnhD/xrJwz/bfpWwL3mbDwxntEWB2G1mwo2OqKMF50/jp6ia2QzKw==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
@@ -4803,7 +4803,7 @@ packages:
     engines: {node: '>=10.13.0'}
     dependencies:
       graceful-fs: 4.2.11
-      tapable: 2.3.0
+      tapable: 2.3.2
     dev: true
 
   /entities@4.5.0:
@@ -8048,8 +8048,8 @@ packages:
       - ts-node
     dev: true
 
-  /tapable@2.3.0:
-    resolution: {integrity: sha512-g9ljZiwki/LfxmQADO3dEY1CbpmXT5Hm2fJ+QaGKwSXUylMybePR7/67YW7jOrrvjEgL1Fmz5kzyAjWVWLlucg==}
+  /tapable@2.3.2:
+    resolution: {integrity: sha512-1MOpMXuhGzGL5TTCZFItxCc0AARf1EZFQkGqMm7ERKj8+Hgr5oLvJOVFcC+lRmR8hCe2S3jC4T5D7Vg/d7/fhA==}
     engines: {node: '>=6'}
     dev: true
 
@@ -9089,7 +9089,7 @@ packages:
       mime-types: 2.1.35
       neo-async: 2.6.2
       schema-utils: 4.3.3
-      tapable: 2.3.0
+      tapable: 2.3.2
       terser-webpack-plugin: 5.4.0(esbuild@0.25.12)(webpack@5.105.4)
       watchpack: 2.5.1
       webpack-sources: 3.3.4
