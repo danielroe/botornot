@@ -10,7 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@iconify-json/codicon": "1.2.52",
+    "@iconify-json/codicon": "1.2.54",
     "@nuxt/test-utils": "4.0.3",
     "@nuxt/ui": "2.22.3",
     "@nuxtjs/tailwindcss": "6.14.0",
