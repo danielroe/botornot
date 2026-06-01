@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@iconify-json/lucide':
     specifier: ^1.1.150
-    version: 1.2.109
+    version: 1.2.110
   partykit:
     specifier: ^0.0.115
     version: 0.0.115
@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@iconify-json/codicon':
-    specifier: 1.2.56
-    version: 1.2.56
+    specifier: 1.2.58
+    version: 1.2.58
   '@nuxt/test-utils':
     specifier: 4.0.3
     version: 4.0.3(happy-dom@20.9.0)(vite@6.4.2)(vitest@4.1.7)
@@ -30,7 +30,7 @@ devDependencies:
     version: 6.14.0
   '@unocss/nuxt':
     specifier: 0.65.4
-    version: 0.65.4(postcss@8.5.15)(vite@6.4.2)(vue@3.5.35)(webpack@5.107.1)
+    version: 0.65.4(postcss@8.5.15)(vite@6.4.2)(vue@3.5.35)(webpack@5.107.2)
   '@vueuse/nuxt':
     specifier: 11.3.0
     version: 11.3.0(nuxt@4.4.6)(vue@3.5.35)
@@ -519,7 +519,7 @@ packages:
       '@nuxt/kit': 4.4.6(magicast@0.5.2)
       chokidar: 5.0.0
       pathe: 2.0.3
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
     transitivePeerDependencies:
       - magicast
     dev: true
@@ -1702,8 +1702,8 @@ packages:
       vue: 3.5.35
     dev: true
 
-  /@iconify-json/codicon@1.2.56:
-    resolution: {integrity: sha512-lCtB4AqfvHkdmL6c2dFE0ubpLD36fVDmiyMq51oZaEm7oAJjcDrAoWe5EsyTLDtl0X43Epxa28JGNIZcjeUHvg==}
+  /@iconify-json/codicon@1.2.58:
+    resolution: {integrity: sha512-zemniV51K4KhWJG5wQu4LzULLJvdmkInrRqdACpJNkly/r4FoKITlFO0eJtsOTj6qsv3eG9WqqFQm06tWODsfg==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1714,8 +1714,8 @@ packages:
       '@iconify/types': 2.0.0
     dev: true
 
-  /@iconify-json/lucide@1.2.109:
-    resolution: {integrity: sha512-O5arvTVcu95soP3dGWJp/Nl5L5FYmFu2z75sSrQmGzrgrnsCU49t8+ZB7HPq//GRNXpWUoNfDRcs5yR7XMa+zw==}
+  /@iconify-json/lucide@1.2.110:
+    resolution: {integrity: sha512-rLeHqnZZBxZbprbVwf6uY7HB5GkGVgvT9VujhjvaUEqFDLKZON6zR8K1f8uD1brBwf5TJ0TIvvW8mz5u2XJU+w==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: false
@@ -2020,7 +2020,7 @@ packages:
       simple-git: 3.36.0
       sirv: 3.0.2
       structured-clone-es: 2.0.0
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       vite: 6.4.2
       vite-plugin-inspect: 11.3.3(@nuxt/kit@4.4.6)(vite@6.4.2)
       vite-plugin-vue-tracer: 1.3.0(vite@6.4.2)(vue@3.5.35)
@@ -2049,7 +2049,7 @@ packages:
       pathe: 2.0.3
       picomatch: 4.0.4
       std-env: 3.10.0
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
     transitivePeerDependencies:
       - magicast
       - supports-color
@@ -2078,7 +2078,7 @@ packages:
       rc9: 3.0.1
       scule: 1.3.0
       semver: 7.8.0
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       ufo: 1.6.4
       unctx: 2.5.0
       untyped: 2.0.0
@@ -2106,7 +2106,7 @@ packages:
       rc9: 3.0.1
       scule: 1.3.0
       semver: 7.8.0
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       ufo: 1.6.4
       unctx: 2.5.0
       untyped: 2.0.0
@@ -3713,7 +3713,7 @@ packages:
       magic-string: 0.30.21
       pathe: 1.1.2
       perfect-debounce: 1.0.0
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -3752,7 +3752,7 @@ packages:
       - vue
     dev: true
 
-  /@unocss/nuxt@0.65.4(postcss@8.5.15)(vite@6.4.2)(vue@3.5.35)(webpack@5.107.1):
+  /@unocss/nuxt@0.65.4(postcss@8.5.15)(vite@6.4.2)(vue@3.5.35)(webpack@5.107.2):
     resolution: {integrity: sha512-dEJdqgvrukgZJk1szxRW6MiIozUZDLeFyyxmnO+iW3loPlji9hu95j2KBVHaQWIzi39XqVSORi4lH5flvAz3Pg==}
     dependencies:
       '@nuxt/kit': 3.21.5
@@ -3767,7 +3767,7 @@ packages:
       '@unocss/preset-wind': 0.65.4
       '@unocss/reset': 0.65.4
       '@unocss/vite': 0.65.4(vite@6.4.2)(vue@3.5.35)
-      '@unocss/webpack': 0.65.4(webpack@5.107.1)
+      '@unocss/webpack': 0.65.4(webpack@5.107.2)
       unocss: 0.65.4(@unocss/webpack@0.65.4)(postcss@8.5.15)(vite@6.4.2)(vue@3.5.35)
     transitivePeerDependencies:
       - magicast
@@ -3790,7 +3790,7 @@ packages:
       '@unocss/rule-utils': 0.65.4
       css-tree: 3.1.0
       postcss: 8.5.15
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3906,7 +3906,7 @@ packages:
       '@unocss/inspector': 0.65.4(vue@3.5.35)
       chokidar: 3.6.0
       magic-string: 0.30.21
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       vite: 6.4.2
     transitivePeerDependencies:
       - rollup
@@ -3914,7 +3914,7 @@ packages:
       - vue
     dev: true
 
-  /@unocss/webpack@0.65.4(webpack@5.107.1):
+  /@unocss/webpack@0.65.4(webpack@5.107.2):
     resolution: {integrity: sha512-cnd0qnJdSxYlQ+zuF0Qad3xZk2X0/p70XLzlA4TaBZuKa2OPJOyulfJwJSqcrSc4PXYOd9B/B8nXJk8WQ1yBHQ==}
     peerDependencies:
       webpack: ^4 || ^5
@@ -3925,9 +3925,9 @@ packages:
       '@unocss/core': 0.65.4
       chokidar: 3.6.0
       magic-string: 0.30.21
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       unplugin: 2.3.11
-      webpack: 5.107.1(esbuild@0.25.12)(postcss@8.5.15)
+      webpack: 5.107.2(esbuild@0.25.12)(postcss@8.5.15)
       webpack-sources: 3.5.0
     transitivePeerDependencies:
       - rollup
@@ -5416,8 +5416,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /enhanced-resolve@5.22.0:
-    resolution: {integrity: sha512-xYcDWrpELkFzz9SpZ3PlI6Eu6eD93Yf0WLDRxikGhWJ3MAir2SNZTIVCVZqZ/NUyx8AdMc2gT9C0gPiw18kG+A==}
+  /enhanced-resolve@5.22.1:
+    resolution: {integrity: sha512-6QEuw3zoX1SJQc7b87aBXke/no+mG2bTBgw29gWMQonLmpEkWoCAVkl+M49e48AZlWzxiDzDZzYdp6kobcyLww==}
     engines: {node: '>=10.13.0'}
     dependencies:
       graceful-fs: 4.2.11
@@ -7065,7 +7065,7 @@ packages:
       scule: 1.3.0
       semver: 7.8.0
       std-env: 4.1.0
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       ufo: 1.6.4
       ultrahtml: 1.6.0
       uncrypto: 0.1.3
@@ -8577,8 +8577,8 @@ packages:
       yallist: 5.0.0
     dev: true
 
-  /terser-webpack-plugin@5.6.0(esbuild@0.25.12)(postcss@8.5.15)(webpack@5.107.1):
-    resolution: {integrity: sha512-Eum+5ajkaOhf5KbM26osvv21kLD7BaGqQ1UA4Ami4arYwylmGUQTgHFpHDdmJod1q4QXa66p0to/FBKID+J1vA==}
+  /terser-webpack-plugin@5.6.1(esbuild@0.25.12)(postcss@8.5.15)(webpack@5.107.2):
+    resolution: {integrity: sha512-201R5j+sJpK8nFWwKVyNfZot8FaJbLZDq5evriVzbV1wDtSXDjRUDRfJzHpAaxFDMEhsZL1QkeqM61wgsS3KaQ==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
       '@minify-html/node': '*'
@@ -8626,7 +8626,7 @@ packages:
       postcss: 8.5.15
       schema-utils: 4.3.3
       terser: 5.48.0
-      webpack: 5.107.1(esbuild@0.25.12)(postcss@8.5.15)
+      webpack: 5.107.2(esbuild@0.25.12)(postcss@8.5.15)
     dev: true
 
   /terser@5.48.0:
@@ -8675,8 +8675,8 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /tinyglobby@0.2.16:
-    resolution: {integrity: sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg==}
+  /tinyglobby@0.2.17:
+    resolution: {integrity: sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==}
     engines: {node: '>=12.0.0'}
     dependencies:
       fdir: 6.5.0(picomatch@4.0.4)
@@ -8853,7 +8853,7 @@ packages:
       pkg-types: 2.3.1
       scule: 1.3.0
       strip-literal: 3.1.0
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       unplugin: 3.0.0
       unplugin-utils: 0.3.1
     dev: true
@@ -8892,7 +8892,7 @@ packages:
       '@unocss/transformer-directives': 0.65.4
       '@unocss/transformer-variant-group': 0.65.4
       '@unocss/vite': 0.65.4(vite@6.4.2)(vue@3.5.35)
-      '@unocss/webpack': 0.65.4(webpack@5.107.1)
+      '@unocss/webpack': 0.65.4(webpack@5.107.2)
       vite: 6.4.2
     transitivePeerDependencies:
       - postcss
@@ -9150,7 +9150,7 @@ packages:
       picomatch: 4.0.4
       proper-lockfile: 4.1.2
       tiny-invariant: 1.3.3
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       vite: 7.3.3(jiti@2.7.0)
       vscode-uri: 3.1.0
     dev: true
@@ -9240,7 +9240,7 @@ packages:
       picomatch: 4.0.4
       postcss: 8.5.15
       rollup: 4.60.4
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
@@ -9291,7 +9291,7 @@ packages:
       picomatch: 4.0.4
       postcss: 8.5.15
       rollup: 4.60.4
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
@@ -9375,7 +9375,7 @@ packages:
       std-env: 4.1.0
       tinybench: 2.9.0
       tinyexec: 1.1.2
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       tinyrainbow: 3.1.0
       vite: 6.4.2
       why-is-node-running: 2.3.0
@@ -9457,7 +9457,7 @@ packages:
       pathe: 2.0.3
       picomatch: 4.0.4
       scule: 1.3.0
-      tinyglobby: 0.2.16
+      tinyglobby: 0.2.17
       unplugin: 3.0.0
       unplugin-utils: 0.3.1
       vue: 3.5.35
@@ -9500,8 +9500,8 @@ packages:
     resolution: {integrity: sha512-66/V2i5hQanC51vBQKPH4aI8NMAcBW59FVBs+rC7eGHupMyfn34q7rZIE+ETlJ+XTevqfUhVVBgSUNSW2flEUQ==}
     dev: true
 
-  /webpack@5.107.1(esbuild@0.25.12)(postcss@8.5.15):
-    resolution: {integrity: sha512-mvdIWxj/H6QsfgDdH9djne3a5dYcmEmtsXGESkypaGN5jXjF/b+9KDlmTDQ2TKlFUeA2fI9Y65kihD30JOdB+Q==}
+  /webpack@5.107.2(esbuild@0.25.12)(postcss@8.5.15):
+    resolution: {integrity: sha512-v7RhXaJbpMlV0D7hC7lb2EbnxkoeUqf9qhKr6lozx3Q48pmFrqqNRmZFUEGmi7pSwm6fCQ2H1IjvCkHqdpVdjQ==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -9519,7 +9519,7 @@ packages:
       acorn-import-phases: 1.0.4(acorn@8.16.0)
       browserslist: 4.28.2
       chrome-trace-event: 1.0.4
-      enhanced-resolve: 5.22.0
+      enhanced-resolve: 5.22.1
       es-module-lexer: 2.1.0
       eslint-scope: 5.1.1
       events: 3.3.0
@@ -9530,7 +9530,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.3
-      terser-webpack-plugin: 5.6.0(esbuild@0.25.12)(postcss@8.5.15)(webpack@5.107.1)
+      terser-webpack-plugin: 5.6.1(esbuild@0.25.12)(postcss@8.5.15)(webpack@5.107.2)
       watchpack: 2.5.1
       webpack-sources: 3.5.0
     transitivePeerDependencies:
