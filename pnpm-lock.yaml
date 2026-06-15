@@ -1575,7 +1575,7 @@ packages:
       vite-plugin-inspect: 11.3.3(@nuxt/kit@4.4.8)(vite@7.3.3)
       vite-plugin-vue-tracer: 1.3.0(vite@7.3.3)(vue@3.5.38)
       which: 6.0.1
-      ws: 8.19.0
+      ws: 8.21.0
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -5648,7 +5648,7 @@ packages:
       buffer-image-size: 0.6.4
       entities: 7.0.1
       whatwg-mimetype: 3.0.0
-      ws: 8.19.0
+      ws: 8.21.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -6321,7 +6321,7 @@ packages:
       stoppable: 1.1.0
       undici: 5.28.4
       workerd: 1.20240718.0
-      ws: 8.19.0
+      ws: 8.21.0
       youch: 3.3.4
       zod: 3.23.8
     transitivePeerDependencies:
@@ -9177,8 +9177,8 @@ packages:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
-  /ws@8.19.0:
-    resolution: {integrity: sha512-blAT2mjOEIi0ZzruJfIhb3nps74PRWTCz1IjglWEEpQl5XS/UNama6u2/rjFkDDouqr4L67ry+1aGIALViWjDg==}
+  /ws@8.21.0:
+    resolution: {integrity: sha512-Vsp28b7DRcimFQvrqu2Wek3z1iYxDCWqHYB8Qsnk/S4RfaCQzPGPyBNuVjJV3cd6UiKtUtp6sNM77gWvzcCH+g==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
