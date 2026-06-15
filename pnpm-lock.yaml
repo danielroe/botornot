@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@iconify-json/codicon':
-    specifier: 1.2.59
-    version: 1.2.59
+    specifier: 1.2.60
+    version: 1.2.60
   '@nuxt/test-utils':
     specifier: 4.0.3
     version: 4.0.3(happy-dom@20.10.1)(vite@7.3.3)(vitest@4.1.8)
@@ -1244,8 +1244,8 @@ packages:
       vue: 3.5.38
     dev: true
 
-  /@iconify-json/codicon@1.2.59:
-    resolution: {integrity: sha512-9LyIHtNbpmqxE3al5nY0Jhni8qVZa9a/IXWSnW+sbGq40iEWmWKhQ5FPJdRYD+7ObskeIapNzC94mpSEuwZgSA==}
+  /@iconify-json/codicon@1.2.60:
+    resolution: {integrity: sha512-IW3hZVKloOWWtLCCp3RNEXsHXN54FXNCuj6QpzQabWFGSaIJcSpqD/YEqvJxz3umccJc5DkoKEf64EEhgNvngw==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
