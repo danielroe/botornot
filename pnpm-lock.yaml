@@ -21,7 +21,7 @@ devDependencies:
     version: 1.2.59
   '@nuxt/test-utils':
     specifier: 4.0.3
-    version: 4.0.3(happy-dom@20.10.1)(vite@7.3.3)(vitest@4.1.8)
+    version: 4.0.3(happy-dom@20.10.2)(vite@7.3.3)(vitest@4.1.8)
   '@nuxt/ui':
     specifier: 2.22.3
     version: 2.22.3(vite@7.3.3)(vue@3.5.38)
@@ -35,14 +35,14 @@ devDependencies:
     specifier: 14.3.0
     version: 14.3.0(nuxt@4.4.8)(vue@3.5.38)
   happy-dom:
-    specifier: 20.10.1
-    version: 20.10.1
+    specifier: 20.10.2
+    version: 20.10.2
   nuxt:
     specifier: 4.4.8
     version: 4.4.8(vite@7.3.3)
   vitest:
     specifier: 4.1.8
-    version: 4.1.8(happy-dom@20.10.1)(vite@7.3.3)
+    version: 4.1.8(happy-dom@20.10.2)(vite@7.3.3)
   vue:
     specifier: 3.5.38
     version: 3.5.38
@@ -1575,7 +1575,7 @@ packages:
       vite-plugin-inspect: 11.3.3(@nuxt/kit@4.4.8)(vite@7.3.3)
       vite-plugin-vue-tracer: 1.3.0(vite@7.3.3)(vue@3.5.38)
       which: 6.0.1
-      ws: 8.19.0
+      ws: 8.21.0
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -1770,7 +1770,7 @@ packages:
       std-env: 4.1.0
     dev: true
 
-  /@nuxt/test-utils@4.0.3(happy-dom@20.10.1)(vite@7.3.3)(vitest@4.1.8):
+  /@nuxt/test-utils@4.0.3(happy-dom@20.10.2)(vite@7.3.3)(vitest@4.1.8):
     resolution: {integrity: sha512-HwF3B+GIwzWeIioskhHIjq+TQttP7+g0GUO39hpivGWFZzYXD3lIspzfmliJkgwwA3m5Xl2Z8XXqX1zAolKX6w==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
@@ -1819,7 +1819,7 @@ packages:
       get-port-please: 3.2.0
       h3: 1.15.11
       h3-next: /h3@2.0.1-rc.20
-      happy-dom: 20.10.1
+      happy-dom: 20.10.2
       local-pkg: 1.1.2
       magic-string: 0.30.21
       node-fetch-native: 1.6.7
@@ -1834,8 +1834,8 @@ packages:
       tinyexec: 1.1.2
       ufo: 1.6.4
       unplugin: 3.0.0
-      vitest: 4.1.8(happy-dom@20.10.1)(vite@7.3.3)
-      vitest-environment-nuxt: 2.0.0(happy-dom@20.10.1)(vite@7.3.3)(vitest@4.1.8)
+      vitest: 4.1.8(happy-dom@20.10.2)(vite@7.3.3)
+      vitest-environment-nuxt: 2.0.0(happy-dom@20.10.2)(vite@7.3.3)(vitest@4.1.8)
       vue: 3.5.38
     transitivePeerDependencies:
       - crossws
@@ -5638,8 +5638,8 @@ packages:
       srvx: 0.11.16
     dev: true
 
-  /happy-dom@20.10.1:
-    resolution: {integrity: sha512-awPoqPjx8CgjapJllyDlgzgVHjBExcitKK5ZJkxwhQJyQpHFkyS2bEcqCm7IeW20cQvuCI0cz2Ifq79CJKqtiw==}
+  /happy-dom@20.10.2:
+    resolution: {integrity: sha512-5p9Sxis3eowDJKqx90QCsgbNA02XXqJ59NOHvD4V6cxp+rP4d/xOyVx7uY3hS8hiUbY1VeiFH8lbJ81AyuDVLQ==}
     engines: {node: '>=20.0.0'}
     dependencies:
       '@types/node': 25.9.2
@@ -5648,7 +5648,7 @@ packages:
       buffer-image-size: 0.6.4
       entities: 7.0.1
       whatwg-mimetype: 3.0.0
-      ws: 8.19.0
+      ws: 8.21.0
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -6321,7 +6321,7 @@ packages:
       stoppable: 1.1.0
       undici: 5.28.4
       workerd: 1.20240718.0
-      ws: 8.19.0
+      ws: 8.21.0
       youch: 3.3.4
       zod: 3.23.8
     transitivePeerDependencies:
@@ -8868,10 +8868,10 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest-environment-nuxt@2.0.0(happy-dom@20.10.1)(vite@7.3.3)(vitest@4.1.8):
+  /vitest-environment-nuxt@2.0.0(happy-dom@20.10.2)(vite@7.3.3)(vitest@4.1.8):
     resolution: {integrity: sha512-zEGFRiCAaRR3fHnqISHKMNTRvCzkQEI1XyFeqNgR2IBD0oYkfZ1rUHwi7C+h3Cns3KPykfB0av1B3MtLEbChDw==}
     dependencies:
-      '@nuxt/test-utils': 4.0.3(happy-dom@20.10.1)(vite@7.3.3)(vitest@4.1.8)
+      '@nuxt/test-utils': 4.0.3(happy-dom@20.10.2)(vite@7.3.3)(vitest@4.1.8)
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@jest/globals'
@@ -8889,7 +8889,7 @@ packages:
       - vitest
     dev: true
 
-  /vitest@4.1.8(happy-dom@20.10.1)(vite@7.3.3):
+  /vitest@4.1.8(happy-dom@20.10.2)(vite@7.3.3):
     resolution: {integrity: sha512-flY6ScbCIt9HThs+C5HS7jvGOB560DJtk/Z15IQROTA6zEy49Nh8T/dofWTQL+n3vswqn87sbJNiuqw1SDp5Ig==}
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
@@ -8939,7 +8939,7 @@ packages:
       '@vitest/utils': 4.1.8
       es-module-lexer: 2.1.0
       expect-type: 1.3.0
-      happy-dom: 20.10.1
+      happy-dom: 20.10.2
       magic-string: 0.30.21
       obug: 2.1.1
       pathe: 2.0.3
@@ -9177,8 +9177,8 @@ packages:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
     dev: true
 
-  /ws@8.19.0:
-    resolution: {integrity: sha512-blAT2mjOEIi0ZzruJfIhb3nps74PRWTCz1IjglWEEpQl5XS/UNama6u2/rjFkDDouqr4L67ry+1aGIALViWjDg==}
+  /ws@8.21.0:
+    resolution: {integrity: sha512-Vsp28b7DRcimFQvrqu2Wek3z1iYxDCWqHYB8Qsnk/S4RfaCQzPGPyBNuVjJV3cd6UiKtUtp6sNM77gWvzcCH+g==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
