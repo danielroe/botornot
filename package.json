@@ -10,12 +10,12 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@iconify-json/codicon": "1.2.64",
+    "@iconify-json/codicon": "1.2.65",
     "@nuxt/test-utils": "4.1.0",
     "@nuxt/ui": "2.22.3",
     "@nuxtjs/tailwindcss": "6.14.0",
     "@unocss/nuxt": "66.7.5",
-    "@vueuse/nuxt": "14.3.0",
+    "@vueuse/nuxt": "14.4.0",
     "happy-dom": "20.11.1",
     "nuxt": "4.5.1",
     "vitest": "4.1.10",
