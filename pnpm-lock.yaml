@@ -21,7 +21,7 @@ devDependencies:
     version: 1.2.72
   '@nuxt/test-utils':
     specifier: 4.2.0
-    version: 4.2.0(happy-dom@20.11.13)(rolldown@1.2.7)(vite@8.2.2)(vitest@5.0.0)(webpack@5.110.3)
+    version: 4.2.0(happy-dom@20.14.0)(rolldown@1.2.7)(vite@8.2.2)(vitest@5.0.0)(webpack@5.110.3)
   '@nuxt/ui':
     specifier: 2.22.3
     version: 2.22.3(oxc-parser@0.131.0)(rolldown@1.2.7)(vite@8.2.2)(vue@3.5.42)(zod@4.5.4)
@@ -35,14 +35,14 @@ devDependencies:
     specifier: 14.4.0
     version: 14.4.0(nuxt@4.5.2)(oxc-parser@0.131.0)(rolldown@1.2.7)(vue@3.5.42)
   happy-dom:
-    specifier: 20.11.13
-    version: 20.11.13
+    specifier: 20.14.0
+    version: 20.14.0
   nuxt:
     specifier: 4.5.2
     version: 4.5.2(oxc-parser@0.131.0)(rolldown@1.2.7)(vite@8.2.2)(webpack@5.110.3)
   vitest:
     specifier: 5.0.0
-    version: 5.0.0(happy-dom@20.11.13)(vite@8.2.2)
+    version: 5.0.0(happy-dom@20.14.0)(vite@8.2.2)
   vue:
     specifier: 3.5.42
     version: 3.5.42
@@ -1642,7 +1642,7 @@ packages:
       std-env: 4.2.0
     dev: true
 
-  /@nuxt/test-utils@4.2.0(happy-dom@20.11.13)(rolldown@1.2.7)(vite@8.2.2)(vitest@5.0.0)(webpack@5.110.3):
+  /@nuxt/test-utils@4.2.0(happy-dom@20.14.0)(rolldown@1.2.7)(vite@8.2.2)(vitest@5.0.0)(webpack@5.110.3):
     resolution: {integrity: sha512-QwmLxlOFoqHrHnOSSl3TJObJ+htx1UgoasP98zbcQbWjkXBef//pMMn7pKzEBHbrW4WfRCioDQw1L2nI3BqkfA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
@@ -1693,7 +1693,7 @@ packages:
       fake-indexeddb: 6.2.5
       get-port-please: 3.2.0
       h3: 1.15.11
-      happy-dom: 20.11.13
+      happy-dom: 20.14.0
       local-pkg: 1.2.1
       magic-string: 1.2.3
       node-fetch-native: 1.6.7
@@ -1708,8 +1708,8 @@ packages:
       tinyexec: 1.3.0
       ufo: 1.6.4
       unplugin: 3.3.0(esbuild@0.28.2)(rolldown@1.2.7)(rollup@4.63.1)(vite@8.2.2)(webpack@5.110.3)
-      vitest: 5.0.0(happy-dom@20.11.13)(vite@8.2.2)
-      vitest-environment-nuxt: 2.0.0(happy-dom@20.11.13)(rolldown@1.2.7)(vite@8.2.2)(vitest@5.0.0)(webpack@5.110.3)
+      vitest: 5.0.0(happy-dom@20.14.0)(vite@8.2.2)
+      vitest-environment-nuxt: 2.0.0(happy-dom@20.14.0)(rolldown@1.2.7)(vite@8.2.2)(vitest@5.0.0)(webpack@5.110.3)
       vue: 3.5.42
     transitivePeerDependencies:
       - '@farmfe/core'
@@ -5308,8 +5308,8 @@ packages:
       srvx: 1.0.3
     dev: true
 
-  /happy-dom@20.11.13:
-    resolution: {integrity: sha512-UUGd67JqTs0BaH4UbTaq8jCxdtNoYjvbmZM5iwgQKK60tLad0p2uPc48WcVTj1MxlIP43z48WahJcViKbxnprQ==}
+  /happy-dom@20.14.0:
+    resolution: {integrity: sha512-4bRh1KzRvKDnFNTlLhzT1RZTpkKhQbQDl9j+7GXszWsvuspYdo29k6OHRf4PwiM6oLb8r/pMWeYiJjkfod5AvQ==}
     engines: {node: '>=20.0.0'}
     dependencies:
       '@types/node': 26.4.1
@@ -8971,10 +8971,10 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest-environment-nuxt@2.0.0(happy-dom@20.11.13)(rolldown@1.2.7)(vite@8.2.2)(vitest@5.0.0)(webpack@5.110.3):
+  /vitest-environment-nuxt@2.0.0(happy-dom@20.14.0)(rolldown@1.2.7)(vite@8.2.2)(vitest@5.0.0)(webpack@5.110.3):
     resolution: {integrity: sha512-zEGFRiCAaRR3fHnqISHKMNTRvCzkQEI1XyFeqNgR2IBD0oYkfZ1rUHwi7C+h3Cns3KPykfB0av1B3MtLEbChDw==}
     dependencies:
-      '@nuxt/test-utils': 4.2.0(happy-dom@20.11.13)(rolldown@1.2.7)(vite@8.2.2)(vitest@5.0.0)(webpack@5.110.3)
+      '@nuxt/test-utils': 4.2.0(happy-dom@20.14.0)(rolldown@1.2.7)(vite@8.2.2)(vitest@5.0.0)(webpack@5.110.3)
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@farmfe/core'
@@ -9000,7 +9000,7 @@ packages:
       - webpack
     dev: true
 
-  /vitest@5.0.0(happy-dom@20.11.13)(vite@8.2.2):
+  /vitest@5.0.0(happy-dom@20.14.0)(vite@8.2.2):
     resolution: {integrity: sha512-gpsMNoRhMjMktVxPtstOH4/PJuPyovVaMDr4oDilXaGH1EcqM2OE96SoHT2VIQ6fTGtTjqmHDrEu2X9RQiXf8Q==}
     engines: {node: ^22.12.0 || ^24.0.0 || >=26.0.0}
     hasBin: true
@@ -9046,7 +9046,7 @@ packages:
       chai: 6.2.2
       es-module-lexer: 2.3.2
       expect-type: 1.4.0
-      happy-dom: 20.11.13
+      happy-dom: 20.14.0
       magic-string: 1.2.3
       obug: 2.1.4
       picomatch: 4.0.7
