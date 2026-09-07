@@ -18,7 +18,7 @@
     "@vueuse/nuxt": "14.4.0",
     "happy-dom": "20.11.13",
     "nuxt": "4.5.2",
-    "vitest": "4.1.11",
+    "vitest": "5.0.0",
     "vue": "3.5.42",
     "vue-router": "4.6.4"
   },
