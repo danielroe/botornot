@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@iconify-json/codicon": "1.2.73",
-    "@nuxt/test-utils": "4.3.2",
+    "@nuxt/test-utils": "4.3.3",
     "@nuxt/ui": "2.22.3",
     "@nuxtjs/tailwindcss": "6.14.0",
     "@unocss/nuxt": "66.10.5",
