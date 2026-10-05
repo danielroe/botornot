@@ -21,7 +21,7 @@ devDependencies:
     version: 1.2.73
   '@nuxt/test-utils':
     specifier: 4.3.2
-    version: 4.3.2(happy-dom@20.14.5)(rolldown@1.2.12)(vite@8.3.2)(vitest@5.0.2)(webpack@5.111.1)
+    version: 4.3.2(happy-dom@20.14.5)(rolldown@1.2.12)(vite@8.3.2)(vitest@5.0.3)(webpack@5.111.1)
   '@nuxt/ui':
     specifier: 2.22.3
     version: 2.22.3(oxc-parser@0.150.0)(rolldown@1.2.12)(vite@8.3.2)(vue@3.5.43)
@@ -41,8 +41,8 @@ devDependencies:
     specifier: 4.5.2
     version: 4.5.2(oxc-parser@0.150.0)(rolldown@1.2.12)(vite@8.3.2)(webpack@5.111.1)
   vitest:
-    specifier: 5.0.2
-    version: 5.0.2(happy-dom@20.14.5)(vite@8.3.2)
+    specifier: 5.0.3
+    version: 5.0.3(happy-dom@20.14.5)(vite@8.3.2)
   vue:
     specifier: 3.5.43
     version: 3.5.43
@@ -1542,7 +1542,7 @@ packages:
       std-env: 4.3.0
     dev: true
 
-  /@nuxt/test-utils@4.3.2(happy-dom@20.14.5)(rolldown@1.2.12)(vite@8.3.2)(vitest@5.0.2)(webpack@5.111.1):
+  /@nuxt/test-utils@4.3.2(happy-dom@20.14.5)(rolldown@1.2.12)(vite@8.3.2)(vitest@5.0.3)(webpack@5.111.1):
     resolution: {integrity: sha512-RgBgYN/CyJYWdHzGA8+bznK7bfqpdCUTkA6WGylYuSdt51l6w/jbz/2PyGuGqFkta4H7KQifWNIeFVjW5x66tg==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
@@ -1608,8 +1608,8 @@ packages:
       tinyexec: 1.3.1
       ufo: 1.6.4
       unplugin: 3.4.0(esbuild@0.28.2)(rolldown@1.2.12)(rollup@4.64.0)(vite@8.3.2)(webpack@5.111.1)
-      vitest: 5.0.2(happy-dom@20.14.5)(vite@8.3.2)
-      vitest-environment-nuxt: 2.0.0(happy-dom@20.14.5)(rolldown@1.2.12)(vite@8.3.2)(vitest@5.0.2)(webpack@5.111.1)
+      vitest: 5.0.3(happy-dom@20.14.5)(vite@8.3.2)
+      vitest-environment-nuxt: 2.0.0(happy-dom@20.14.5)(rolldown@1.2.12)(vite@8.3.2)(vitest@5.0.3)(webpack@5.111.1)
       vue: 3.5.43
     transitivePeerDependencies:
       - '@farmfe/core'
@@ -3029,8 +3029,8 @@ packages:
       vue: 3.5.43
     dev: true
 
-  /@vitest/mocker@5.0.2(vite@8.3.2):
-    resolution: {integrity: sha512-Z5FS00Q1SJHkB35xATsmWGdQ5WA1/0MV3CDjqyv7GavHv1OfOj145MNfHOlHk7QLes21dKFDHr8EO2zvL+9WGA==}
+  /@vitest/mocker@5.0.3(vite@8.3.2):
+    resolution: {integrity: sha512-T8sWAIbkSyAjkwTcaEc3Iu0o9A27X1/kdXrizhZkGuSKScRQtRzclfAMpOTcGdXCsqxeWlpGy3XjqaW8CpLORg==}
     peerDependencies:
       msw: ^2.4.9
       vite: ^6.0.0 || ^7.0.0 || ^8.0.0
@@ -3041,14 +3041,14 @@ packages:
         optional: true
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
-      '@vitest/spy': 5.0.2
+      '@vitest/spy': 5.0.3
       estree-walker: 3.0.3
       magic-string: 1.4.2
       vite: 8.3.2(jiti@2.7.0)
     dev: true
 
-  /@vitest/spy@5.0.2:
-    resolution: {integrity: sha512-Ijc7T1nT9efNb5LxvjaBrEqw3f/QwUv5EE0nKqZxgqsaV/FxAAZ8baGylA8X/Z2oS4Lp+K74Jr6dTJsDKxJDeg==}
+  /@vitest/spy@5.0.3:
+    resolution: {integrity: sha512-XhFysQTB8AZ+P4gMi+Lpo99vg2AZi0qKpaB9yXQl37+CaMEAPO3iH/wGVnSyL5MPERiLezpqTVtrR6UZH5GCXg==}
     dev: true
 
   /@vue-macros/common@3.1.4(vue@3.5.43):
@@ -8519,10 +8519,10 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest-environment-nuxt@2.0.0(happy-dom@20.14.5)(rolldown@1.2.12)(vite@8.3.2)(vitest@5.0.2)(webpack@5.111.1):
+  /vitest-environment-nuxt@2.0.0(happy-dom@20.14.5)(rolldown@1.2.12)(vite@8.3.2)(vitest@5.0.3)(webpack@5.111.1):
     resolution: {integrity: sha512-zEGFRiCAaRR3fHnqISHKMNTRvCzkQEI1XyFeqNgR2IBD0oYkfZ1rUHwi7C+h3Cns3KPykfB0av1B3MtLEbChDw==}
     dependencies:
-      '@nuxt/test-utils': 4.3.2(happy-dom@20.14.5)(rolldown@1.2.12)(vite@8.3.2)(vitest@5.0.2)(webpack@5.111.1)
+      '@nuxt/test-utils': 4.3.2(happy-dom@20.14.5)(rolldown@1.2.12)(vite@8.3.2)(vitest@5.0.3)(webpack@5.111.1)
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@farmfe/core'
@@ -8549,20 +8549,20 @@ packages:
       - webpack
     dev: true
 
-  /vitest@5.0.2(happy-dom@20.14.5)(vite@8.3.2):
-    resolution: {integrity: sha512-7MQrx9pDv5aHiUcovIb/70Ys3tgtkUVgCtledvKdCmEO+/1Dicq5ZqoSxOW034m03oqC+oHOKui2dM6qtMLoJg==}
+  /vitest@5.0.3(happy-dom@20.14.5)(vite@8.3.2):
+    resolution: {integrity: sha512-xMw97S3rjdtj5dkVat7jCsqWBpvchs3RlpQctUqwJD0KkERk40vz2fJ77lDwW/Vzh/pk18eItYAzkodhSes3jQ==}
     engines: {node: ^22.12.0 || ^24.0.0 || >=26.0.0}
     hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
       '@opentelemetry/api': ^1.9.0
       '@types/node': ^22.0.0 || >=24.0.0
-      '@vitest/browser-playwright': 5.0.2
-      '@vitest/browser-preview': 5.0.2
+      '@vitest/browser-playwright': 5.0.3
+      '@vitest/browser-preview': 5.0.3
       '@vitest/browser-webdriverio': ^5.0.0-beta.5 || >=5.0.0
-      '@vitest/coverage-istanbul': 5.0.2
-      '@vitest/coverage-v8': 5.0.2
-      '@vitest/ui': 5.0.2
+      '@vitest/coverage-istanbul': 5.0.3
+      '@vitest/coverage-v8': 5.0.3
+      '@vitest/ui': 5.0.3
       happy-dom: '*'
       jsdom: '*'
       vite: ^6.4.0 || ^7.0.0 || ^8.0.0
@@ -8591,7 +8591,7 @@ packages:
         optional: true
     dependencies:
       '@types/chai': 5.2.3
-      '@vitest/mocker': 5.0.2(vite@8.3.2)
+      '@vitest/mocker': 5.0.3(vite@8.3.2)
       chai: 6.3.0
       es-module-lexer: 2.3.2
       expect-type: 1.4.0
@@ -8604,7 +8604,7 @@ packages:
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
       vite: 8.3.2(jiti@2.7.0)
-      why-is-node-running: 3.2.2
+      why-is-node-running: 3.2.1
     transitivePeerDependencies:
       - msw
     dev: true
@@ -8788,8 +8788,8 @@ packages:
       isexe: 4.0.0
     dev: true
 
-  /why-is-node-running@3.2.2:
-    resolution: {integrity: sha512-NKUzAelcoCXhXL4dJzKIwXeR8iEVqsA0Lq6Vnd0UXvgaKbzVo4ZTHROF2Jidrv+SgxOQ03fMinnNhzZATxOD3A==}
+  /why-is-node-running@3.2.1:
+    resolution: {integrity: sha512-Tb2FUhB4vUsGQlfSquQLYkApkuPAFQXGFzxWKHHumVz2dK+X1RUm/HnID4+TfIGYJ1kTcwOaCk/buYCEJr6YjQ==}
     engines: {node: '>=20.11'}
     hasBin: true
     dev: true
