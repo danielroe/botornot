@@ -21,7 +21,7 @@ devDependencies:
     version: 1.2.74
   '@nuxt/test-utils':
     specifier: 4.3.3
-    version: 4.3.3(happy-dom@20.14.5)(nuxt@4.6.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(vitest@5.0.3)(vue@3.5.43)(webpack@5.111.1)
+    version: 4.3.3(happy-dom@20.14.6)(nuxt@4.6.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(vitest@5.0.3)(vue@3.5.43)(webpack@5.111.1)
   '@nuxt/ui':
     specifier: 2.22.3
     version: 2.22.3(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(vue@3.5.43)
@@ -35,14 +35,14 @@ devDependencies:
     specifier: 15.0.0
     version: 15.0.0(nuxt@4.6.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vue@3.5.43)
   happy-dom:
-    specifier: 20.14.5
-    version: 20.14.5
+    specifier: 20.14.6
+    version: 20.14.6
   nuxt:
     specifier: 4.6.0
     version: 4.6.0(acorn@8.18.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(webpack@5.111.1)
   vitest:
     specifier: 5.0.3
-    version: 5.0.3(happy-dom@20.14.5)(vite@8.3.4)
+    version: 5.0.3(happy-dom@20.14.6)(vite@8.3.4)
   vue:
     specifier: 3.5.43
     version: 3.5.43
@@ -1620,7 +1620,7 @@ packages:
       std-env: 4.3.0
     dev: true
 
-  /@nuxt/test-utils@4.3.3(happy-dom@20.14.5)(nuxt@4.6.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(vitest@5.0.3)(vue@3.5.43)(webpack@5.111.1):
+  /@nuxt/test-utils@4.3.3(happy-dom@20.14.6)(nuxt@4.6.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(vitest@5.0.3)(vue@3.5.43)(webpack@5.111.1):
     resolution: {integrity: sha512-0Nxp6e+VJROAMGuyurTX3+ON+l3y79TuNDsciy+7TfCPx4GcitTrYsxjomi65jLVi0H32aEb2sloh/qmiwj6aA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
@@ -1671,7 +1671,7 @@ packages:
       exsolve: 1.1.3
       fake-indexeddb: 6.2.5
       get-port-please: 3.2.0
-      happy-dom: 20.14.5
+      happy-dom: 20.14.6
       magic-string: 1.4.2
       nuxt: 4.6.0(acorn@8.18.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(webpack@5.111.1)
       ofetch: 1.5.1
@@ -1684,8 +1684,8 @@ packages:
       tinyexec: 1.3.1
       ufo: 1.6.4
       unplugin: 3.4.0(esbuild@0.28.2)(rolldown@1.2.13)(rollup@4.64.0)(vite@8.3.4)(webpack@5.111.1)
-      vitest: 5.0.3(happy-dom@20.14.5)(vite@8.3.4)
-      vitest-environment-nuxt: 2.0.0(happy-dom@20.14.5)(nuxt@4.6.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(vitest@5.0.3)(vue@3.5.43)(webpack@5.111.1)
+      vitest: 5.0.3(happy-dom@20.14.6)(vite@8.3.4)
+      vitest-environment-nuxt: 2.0.0(happy-dom@20.14.6)(nuxt@4.6.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(vitest@5.0.3)(vue@3.5.43)(webpack@5.111.1)
       vue: 3.5.43
     transitivePeerDependencies:
       - '@farmfe/core'
@@ -5198,8 +5198,8 @@ packages:
       srvx: 1.0.5
     dev: true
 
-  /happy-dom@20.14.5:
-    resolution: {integrity: sha512-x/RzkpWO40bTjIoT30iQtt64FLLmH/iRcUCN2X//bLx7H3ifkdfPXyqsro/OYtqzIAhiLMMA7mmiOR9C3NOKjQ==}
+  /happy-dom@20.14.6:
+    resolution: {integrity: sha512-5DDsf4QmEIlRL6NkCv/fxSjYHHkZceL/IaYQdJc2h3G7DRTEai++VTjbfL0LB9geW2VrA3+vrjF3Efx+OTtX0Q==}
     engines: {node: '>=20.0.0'}
     dependencies:
       '@types/node': 26.6.5
@@ -8774,10 +8774,10 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest-environment-nuxt@2.0.0(happy-dom@20.14.5)(nuxt@4.6.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(vitest@5.0.3)(vue@3.5.43)(webpack@5.111.1):
+  /vitest-environment-nuxt@2.0.0(happy-dom@20.14.6)(nuxt@4.6.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(vitest@5.0.3)(vue@3.5.43)(webpack@5.111.1):
     resolution: {integrity: sha512-zEGFRiCAaRR3fHnqISHKMNTRvCzkQEI1XyFeqNgR2IBD0oYkfZ1rUHwi7C+h3Cns3KPykfB0av1B3MtLEbChDw==}
     dependencies:
-      '@nuxt/test-utils': 4.3.3(happy-dom@20.14.5)(nuxt@4.6.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(vitest@5.0.3)(vue@3.5.43)(webpack@5.111.1)
+      '@nuxt/test-utils': 4.3.3(happy-dom@20.14.6)(nuxt@4.6.0)(oxc-parser@0.150.0)(rolldown@1.2.13)(vite@8.3.4)(vitest@5.0.3)(vue@3.5.43)(webpack@5.111.1)
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@farmfe/core'
@@ -8812,7 +8812,7 @@ packages:
       - webpack
     dev: true
 
-  /vitest@5.0.3(happy-dom@20.14.5)(vite@8.3.4):
+  /vitest@5.0.3(happy-dom@20.14.6)(vite@8.3.4):
     resolution: {integrity: sha512-xMw97S3rjdtj5dkVat7jCsqWBpvchs3RlpQctUqwJD0KkERk40vz2fJ77lDwW/Vzh/pk18eItYAzkodhSes3jQ==}
     engines: {node: ^22.12.0 || ^24.0.0 || >=26.0.0}
     hasBin: true
@@ -8858,7 +8858,7 @@ packages:
       chai: 6.3.0
       es-module-lexer: 2.3.2
       expect-type: 1.4.0
-      happy-dom: 20.14.5
+      happy-dom: 20.14.6
       magic-string: 1.4.2
       obug: 2.2.1
       picomatch: 4.0.7
