@@ -20,8 +20,8 @@ devDependencies:
     specifier: 1.2.77
     version: 1.2.77
   '@nuxt/test-utils':
-    specifier: 4.3.4
-    version: 4.3.4(happy-dom@21.0.4)(nuxt@4.6.4)(rolldown@1.2.16)(vite@8.3.6)(vitest@5.1.0)(vue@3.5.45)(webpack@5.112.2)
+    specifier: 4.4.0
+    version: 4.4.0(happy-dom@21.0.4)(nuxt@4.6.4)(rolldown@1.2.16)(vite@8.3.6)(vitest@5.1.0)(vue@3.5.45)(webpack@5.112.2)
   '@nuxt/ui':
     specifier: 2.22.3
     version: 2.22.3(rolldown@1.2.16)(vite@8.3.6)(vue@3.5.45)
@@ -1610,8 +1610,8 @@ packages:
       std-env: 4.3.0
     dev: true
 
-  /@nuxt/test-utils@4.3.4(happy-dom@21.0.4)(nuxt@4.6.4)(rolldown@1.2.16)(vite@8.3.6)(vitest@5.1.0)(vue@3.5.45)(webpack@5.112.2):
-    resolution: {integrity: sha512-8x0w16DDUi1/6ZivL1zuOaDt9xtACZFHMQySBirUZNIU0H0qljjB5yyajXPtlb8YCQ5l6piFJqafK/zDpDcCnA==}
+  /@nuxt/test-utils@4.4.0(happy-dom@21.0.4)(nuxt@4.6.4)(rolldown@1.2.16)(vite@8.3.6)(vitest@5.1.0)(vue@3.5.45)(webpack@5.112.2):
+    resolution: {integrity: sha512-ptXsLEdlh676GVNDwFiFjAbttuTRUq3MBlJFGYqQQK4+IKS2Qo9dhxjqkckxFIuIoy5VjquZVARq+q+yKQR/6w==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
       '@cucumber/cucumber': '>=11.0.0'
@@ -8218,7 +8218,7 @@ packages:
   /vitest-environment-nuxt@2.0.0(happy-dom@21.0.4)(nuxt@4.6.4)(rolldown@1.2.16)(vite@8.3.6)(vitest@5.1.0)(vue@3.5.45)(webpack@5.112.2):
     resolution: {integrity: sha512-zEGFRiCAaRR3fHnqISHKMNTRvCzkQEI1XyFeqNgR2IBD0oYkfZ1rUHwi7C+h3Cns3KPykfB0av1B3MtLEbChDw==}
     dependencies:
-      '@nuxt/test-utils': 4.3.4(happy-dom@21.0.4)(nuxt@4.6.4)(rolldown@1.2.16)(vite@8.3.6)(vitest@5.1.0)(vue@3.5.45)(webpack@5.112.2)
+      '@nuxt/test-utils': 4.4.0(happy-dom@21.0.4)(nuxt@4.6.4)(rolldown@1.2.16)(vite@8.3.6)(vitest@5.1.0)(vue@3.5.45)(webpack@5.112.2)
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@farmfe/core'
